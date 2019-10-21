@@ -1,0 +1,30 @@
+/* components/callPhoneCard/cmp.wxss */
+.container .phoneCardBox {
+  width: 750rpx;
+  height: 170rpx;
+  box-sizing: border-box;
+  padding: 31rpx 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .phoneCardBox .card {
+  width: 224rpx;
+  height: 134rpx;
+  box-sizing: border-box;
+}
+
+.card:nth-child(1) {
+  background-image: url(https://i1.fuimg.com/701571/5acc44e3b1af2d8f.png);
+  background-size: cover;
+}
+
+.card:nth-child(2) {
+  background-image: url(https://i1.fuimg.com/701571/5e781729a5ec69d7.png);
+  background-size: cover;
+}
+
+.card:nth-child(3) {
+  background-image: url(https://i1.fuimg.com/701571/055febdea54e26c1.png);
+  background-size: cover;
+}

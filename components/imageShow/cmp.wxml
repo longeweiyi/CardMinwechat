@@ -1,0 +1,9 @@
+<!--components/imageShow/cmp.wxml-->
+<view class="container">
+  <view class="desc_box desc_box_auto">
+    <view class="{{marginRL30 ? 'desc_box_header marginRL30' : 'desc_box_header'}}">{{title}}</view>
+    <view class="desc_box_content">
+      <image mode="widthFix" class="bigbox" src="{{imageurl}}"></image>
+    </view>
+  </view>
+</view>

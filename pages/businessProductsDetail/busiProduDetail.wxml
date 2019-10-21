@@ -1,0 +1,24 @@
+<!--pages/businessProductsDetail/busiProduDetail.wxml-->
+<view class="container">
+  <c-phone />
+  <view class="imagebox">
+    <image mode="scaleToFill" src="https://i1.fuimg.com/701571/ad7cc425e756b34a.png"></image>
+    <view class="imagedesc">
+      <view class="desctext">家用扫地机器人</view>
+      <button hover-class="none" class="sharebtn">
+        <image src="https://i2.tiimg.com/701571/ac9cb9960d3244b2.png"></image>
+      </button>
+    </view>
+  </view>
+  <view class="c_image_show" >
+    <button bindtap="toMoreTestResultFunc" class="moreBtn">更多>></button>
+    <c-imageshow 
+      title="产品详情"
+      imageurl="https://i1.fuimg.com/701571/6c34a877e5ea534e.png"/>
+  </view>
+  <view class="c_image_show c_image_show_width100" >
+    <c-imageshow marginRL30="{{true}}" 
+      title="产品详情"
+      imageurl="https://i2.tiimg.com/701571/b3f73e8c4444e88e.png"/>
+  </view>
+</view>

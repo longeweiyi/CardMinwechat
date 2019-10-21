@@ -1,0 +1,27 @@
+<!--pages/businessProductList/busiProduList.wxml-->
+<view class="container">
+  <c-phone />
+  <c-nav class="cnav" />
+  <view class="imageList">
+    <view class="list1">
+      <view class="imagelist_box" wx:for="{{col1}}" wx:key="{{item.id}}">
+        <image mode="widthFix" src="{{item.url}}"></image>
+        <view class="imagelist_box_name">
+          {{item.name}}
+        </view>
+      </view>
+    </view>
+    <view class="list2">
+      <view class="imagelist_box" wx:for="{{col2}}" wx:key="{{item.id}}">
+        <image mode="widthFix" src="{{item.url}}"></image>
+        <view class="imagelist_box_name">
+          {{item.name}}
+        </view>
+      </view>
+    </view>
+  </view>
+  <view style="display:none">
+    <image wx:for="{{imageArr}}" wx:key="{{item.id}}" data-item="{{item}}" bindload="onImageLoad" src="{{item.url}}">
+    </image>
+  </view>
+</view>

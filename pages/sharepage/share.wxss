@@ -1,0 +1,140 @@
+/* pages/sharepage/share.wxss */
+
+page, .container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(https://i1.fuimg.com/701571/2e8bee225c09bf5a.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.shareCanvas {
+  background-size: cover;
+}
+
+.topbox {
+  width: 652rpx;
+  height: 598rpx;
+  box-sizing: border-box;
+  position: absolute;
+  top: 70rpx;
+  left: 49rpx;
+  text-align: center;
+}
+
+.topbox .name {
+  text-align: center;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: rgba(34, 34, 34, 1);
+  margin-top: 60rpx;
+}
+
+@media screen and (min-width: 700px) {
+  .topbox .name {
+    text-align: center;
+    font-size: 36rpx;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(34, 34, 34, 1);
+    margin-top: -10rpx;
+  }
+}
+
+.topbox .busname {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  line-height: 36rpx;
+  text-align: center;
+  margin-top: 22rpx;
+}
+
+.topbox image {
+  width: 244rpx;
+  height: 244rpx;
+  margin-top: 50rpx;
+}
+
+.topbox .fenxbox {
+  width: 343rpx;
+  height: 60rpx;
+  line-height: 65rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0rpx 8rpx 27rpx 2rpx rgba(154, 149, 149, 0.15);
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.topbox .fenxbox .fexma {
+  flex: 1;
+}
+
+.topbox .fenxbox .fexdesc {
+  flex: 1;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #3656A7;
+}
+
+.share_type {
+  width: 652rpx;
+  height: 205rpx;
+  position: absolute;
+  /* top: 700rpx; */
+  top: 59%;
+  left: 49rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.share_type_box {
+  width: 132rpx;
+  height: 132rpx;
+  margin-top: 16rpx;
+  position: relative;
+  flex: 1;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.share_type_box image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.share_type_box text {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(136, 136, 136, 1);
+  position: relative;
+  bottom: 34rpx;
+  width: 132rpx;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.sharebtn {
+  display: inline;
+  background: transparent;
+  line-height: 0;
+}
+
+.sharebtn::after {
+  content: "";
+  border: none;
+  height: 0;
+  width: 0;
+  line-height: 0;
+}

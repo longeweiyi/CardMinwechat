@@ -1,0 +1,55 @@
+/* pages/businessProductList/busiProduList.wxss */
+
+.imageList {
+  width: 750rpx;
+  padding: 30rpx 20rpx 0;
+  box-sizing: border-box;
+  margin-bottom: 30rpx;
+  font-size: 0;
+  height: auto;
+  border-top: 14rpx solid #F6F6F9;
+}
+
+.imageList .imagelist_box {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10rpx;
+}
+
+.imageList .imagelist_box image {
+  border-radius: 10rpx;
+}
+
+.imageList .imagelist_box .imagelist_box_name {
+  position: absolute;
+  bottom: 20rpx;
+  box-sizing: border-box;
+  height: 59rpx;
+  line-height: 59rpx;background:rgba(0,0,0,1);
+  opacity:0.3;
+  color: #FFF;
+  font-size: 23rpx;
+  padding: 0 0 0 30rpx;
+  text-align: left;
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+
+.imageList view {
+  width: 344rpx;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.imageList .list1 {
+  float: left;
+}
+
+.imageList .list2 {
+  float: right;
+}
+
+.imageList image {
+  width: 344rpx;
+  margin-bottom: 20rpx;
+}

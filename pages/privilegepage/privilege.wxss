@@ -1,0 +1,4 @@
+/* pages/privilegepage/privilege.wxss */
+page, container {
+  height: 100%;
+}

@@ -1,0 +1,34 @@
+<!--pages/sharepage/share.wxml-->
+<!-- <text>https://i1.fuimg.com/701571/2e8bee225c09bf5a.png</text> -->
+
+<view class="container">
+  <view class="topbox">
+    <view class="name">张三</view>
+    <view class="busname">西安趣链科技股份有限公司</view>
+    <image src="https://i2.tiimg.com/701571/bd44242a2cc36399.png"></image>
+    <view class="fenxbox">
+      <text class="fexma">123e4u</text>
+      <text class="fexdesc" data-text="{{'123e4u'}}" bindtap="copCodeNumFunc">复制分享码</text>
+    </view>
+  </view>
+  <view class="share_type">
+    <view class="share_type_box">
+      <button open-type="share" class="sharebtn">
+        <image mode="aspectFit" src="https://i1.fuimg.com/701571/aa731799dde38cea.png"></image>
+      </button>
+      <text class="fxweixin">分享到微信</text>
+    </view>
+    <view class="share_type_box">
+      <image mode="aspectFit" bindtap="downCardFunc" src="https://i1.fuimg.com/701571/9a323306fb4f1832.png"></image>
+      <text>保存到相册</text>
+    </view>
+    <view class="share_type_box">
+      <button open-type="share" id="shareall" class="sharebtn">
+        <image mode="aspectFit" src="https://i1.fuimg.com/701571/7e7c8015d3c311af.png"></image>
+      </button>
+      <text>分享此小程序</text>
+    </view>
+  </view>
+  <!-- canvas下载转图片用 -->
+  <canvas canvas-id="shareCanvas" class="shareCanvas" style="width:750rpx;height:100%;position:absolute;top:2000px;" />
+</view>

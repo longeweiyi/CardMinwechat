@@ -1,0 +1,12 @@
+<!--pages/qualityInspectionReportLIst/qualityInspectReport.wxml-->
+<view class="container">
+  <c-nav navTypeArr="{{navTypeArr}}" liwidth="171rpx" />
+  <view class="ulbox">
+    <view class="libox" wx:for="123456" wx:key="{{index}}" data-index="{{index}}" bindtap="clickliBoxFunc">
+      <view class="libox_title">检测报告{{index + 1}}</view>
+      <view class="jiantoubox">
+        <view class="jiantou"></view>
+      </view>
+    </view>
+  </view>
+</view>

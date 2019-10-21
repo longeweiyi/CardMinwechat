@@ -1,0 +1,67 @@
+/* pages/cards/cards.wxss */
+.container {
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchWrapper image {
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 30rpx;
+}
+
+.searchWrapper .searchInput {
+  width: 690rpx;
+  height: 70rpx;
+  background: rgba(245, 244, 246, 1);
+  border-radius: 10rpx;
+  padding-left: 75rpx;
+  box-sizing: border-box;
+}
+
+.switchtab_wrapper {
+  display: flex;
+  width: 690rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+}
+
+.switchtab_wrapper view {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.switchtab_wrapper view.active::after {
+  content: " ";
+  display: block;
+  width: 50rpx;
+  height: 4rpx;
+  background: rgba(55, 60, 77, 1);
+  border-radius: 2rpx;
+  bottom: -6rpx;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.list_content {
+  margin-top: -28rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  width: 690rpx;
+  scroll-snap-type-y: auto;
+}
+
+.cart_list {
+  margin-top: 38rpx;
+}
+

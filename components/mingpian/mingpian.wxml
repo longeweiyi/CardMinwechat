@@ -1,0 +1,21 @@
+<!--components/mingpian/mingpian.wxml-->
+<view class="cardbox">
+  <view class="topbox">
+    <view class="topbox_header_logo">
+      <image mode="aspectFit" src="/image/xiaomi.png"></image>
+    </view>
+    <view class="topbox_header_desc {{'topbox_header_desc_bac' + cardinfo.type}}">
+      <image src="/image/jinxiaoshang@2x.png"></image>
+      <text>{{cardinfo.type_name}}</text>
+    </view>
+  </view>
+  <view class="bottombox">
+    <view class="bottombox_namebox">
+      <text class="bottombox_name">{{cardinfo.perple_name}}</text>
+      <text class="bottombox_people_site">({{cardinfo.site}})</text>
+    </view>
+    <view class="bottombox_businame">
+      {{cardinfo.businame}}
+    </view>
+  </view>
+</view>

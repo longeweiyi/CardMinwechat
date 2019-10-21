@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "c-phone": "/components/callPhoneCard/cmp",
+    "c-imageshow": "/components/imageShow/cmp"
+  }
+}

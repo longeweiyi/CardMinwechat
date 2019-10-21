@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cards/cards",
+    "pages/sharepage/share",
+    "pages/privilegepage/privilege",
+    "pages/businessProductList/busiProduList",
+    "pages/businessIntroduct/businessIntroduct",
+    "pages/businessProductsDetail/busiProduDetail",
+    "pages/qualityInspectionReportLIst/qualityInspectReport"
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#222222",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/mingpian@2x.png",
+        "selectedIconPath": "image/mingpiansolid@2x.png",
+        "text": "我的名片"
+      },
+      {
+        "pagePath": "pages/cards/cards",
+        "iconPath": "image/mpjia@2x.png",
+        "selectedIconPath": "image/mpjiasolid.png",
+        "text": "名片夹"
+      },
+      {
+        "pagePath": "pages/sharepage/share",
+        "iconPath": "image/fx@2x.png",
+        "selectedIconPath": "image/fxsolid@2x.png",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/privilegepage/privilege",
+        "iconPath": "image/qy@2x.png",
+        "selectedIconPath": "image/qysolid@2x.png",
+        "text": "权益"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的名片",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,8 @@
+<!--components/callPhoneCard/cmp.wxml-->
+<view class="container">
+  <view class="phoneCardBox" bindtap="clickboxFunc">
+    <view id="callphone" class="card"></view>
+    <view id="ceshi" class="card"></view>
+    <view id="custerm" class="card"></view>
+  </view>
+</view>

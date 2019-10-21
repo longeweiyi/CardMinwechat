@@ -1,0 +1,28 @@
+/* components/mingpianbox/cmp.wxss */
+
+.header {
+  /* margin: 0 30rpx; */
+  height:47rpx;
+  line-height: 47rpx;
+  background:rgba(249,249,250,1);
+  width: 690rpx;
+  box-sizing: border-box;
+  border-radius: 6rpx;
+  padding-left: 29rpx;
+  margin-bottom: 50rpx;
+}
+
+.list_content {
+  margin-top: 50rpx;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap:wrap; */
+  width: 720rpx;
+  scroll-snap-type-y: auto;
+}
+
+.list_content .cart_item {
+  display: inline-block;
+  margin-bottom: 32rpx;
+  margin: 0 32rpx 32rpx 0;
+}

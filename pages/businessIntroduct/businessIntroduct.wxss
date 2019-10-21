@@ -1,0 +1,129 @@
+/* pages/businessIntroduct/businessIntroduct.wxss */
+
+.busidescbox {
+  width: 691rpx;
+  height: 697rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0rpx 6rpx 22rpx 2rpx rgba(121, 121, 121, 0.12);
+  border-radius: 14rpx;
+  margin: 52rpx auto 0;
+  text-align: center;
+}
+
+.busidescbox .busilogo {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 35rpx;
+}
+
+.list_li {
+  height: 107rpx;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+}
+
+.list_li::after {
+  content: " ";
+  display: inline-block;
+  border-top: 1px solid #f6f6f6;
+  position: absolute;
+  width: 590rpx;
+  left: 51rpx;
+}
+
+.list_li:nth-of-type(1)::after {
+  border-top: none;
+}
+
+.list_li_left {
+  height: 107rpx;
+  line-height: 107rpx;
+  width: 168rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(136, 136, 136, 1);
+  text-align: right;
+}
+
+.list_li_right {
+  flex: 1;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  height: 107rpx;
+  line-height: 107rpx;
+  text-align: left;
+  padding-left: 37rpx;
+}
+
+.desc_box {
+  height: 310rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.margintop50 {
+  margin-top: 50rpx;
+}
+
+.desc_box .desc_box_header {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: rgba(34, 34, 34, 1);
+  position: relative;
+  padding-left: 29rpx;
+}
+
+.desc_box .desc_box_header::before {
+  content: " ";
+  width: 4rpx;
+  height: 30rpx;
+  background: linear-gradient(0deg, rgba(54, 86, 167, 1), rgba(95, 129, 215, 1));
+  border-radius: 2rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 0rpx;
+}
+
+.desc_box .desc_box_content {
+  flex: 1;
+  white-space: nowrap;
+  overflow-x: scroll;
+  /* width: 720rpx; */
+}
+
+.desc_box .desc_box_content .desc_box_content_li {
+  width: 280rpx;
+  height: 158rpx;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0rpx 6rpx 22rpx 2rpx rgba(121, 121, 121, 0.12);
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+  margin-top: 30rpx;
+}
+
+ .desc_box .desc_box_content .desc_box_content_li image {
+   width: 100%;
+   height: 158rpx;
+   box-sizing: border-box;
+ }
+
+ .desc_box_auto {
+   height: auto;
+ }
+
+ .desc_box .desc_box_content .bigbox {
+   width: 100%;
+   margin-top: 30rpx;
+ }
+
+ .c_image_show {
+   padding: 0 30rpx;
+ }

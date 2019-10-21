@@ -1,0 +1,7 @@
+<!--pages/privilegepage/privilege.wxml-->
+<view class="container">
+  <image mode="widthFix" style="width:750rpx" 
+    src="https://i1.fuimg.com/701571/bd8af9f62b8c5ce2.png"
+    lazy-load="true"
+    bindload="onImageLoad" wx:show="{{imagFlag}}"></image>
+</view>

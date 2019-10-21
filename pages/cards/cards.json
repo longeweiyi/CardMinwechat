@@ -1,0 +1,11 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "名片夹",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "c-mingpianbox": "/components/mingpianbox/cmp"
+  }
+}

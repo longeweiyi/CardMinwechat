@@ -1,0 +1,45 @@
+/* components/imageShow/cmp.wxss */
+.desc_box {
+  height: 310rpx;
+  box-sizing: border-box;
+  /* padding: 0 30rpx; */
+  display: flex;
+  flex-direction: column;
+}
+
+.marginRL30 {
+  margin: 0 30rpx;
+}
+
+.margintop50 {
+  margin-top: 50rpx;
+}
+
+.desc_box .desc_box_header {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: rgba(34, 34, 34, 1);
+  position: relative;
+  padding-left: 29rpx;
+}
+
+.desc_box .desc_box_header::before {
+  content: " ";
+  width: 4rpx;
+  height: 30rpx;
+  background: linear-gradient(0deg, rgba(54, 86, 167, 1), rgba(95, 129, 215, 1));
+  border-radius: 2rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 0rpx;
+}
+
+.desc_box_auto {
+  height: auto;
+}
+
+ .desc_box .desc_box_content .bigbox {
+   width: 100%;
+   margin-top: 30rpx;
+ }

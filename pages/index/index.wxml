@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <!-- 顶部banner轮播 -->
+    <view class="swiperBox">
+      <swiper autoplay="true" 
+        indicator-dots="true" circular="true" indicator-color="rgba(255,255,255,1)" 
+        indicator-active-color="rgba(255,255,255,.5)"
+        bindchange="bannerChange">
+        <swiper-item wx:for="{{bannerTopArr}}" wx:key="*this" class="swiperItem">
+          <image src="{{item}}"></image>
+          <view class="swiper-item {{item}}"></view>
+        </swiper-item>
+      </swiper>
+      <view class="swiperpointbox">
+        <view wx:for="{{bannerTopArr}}" wx:key="*this" class="point {{index === currentIndex ? 'active' : ''}}"></view>
+      </view>
+      <!-- 名片 -->
+      <view class="card">
+        <view class="business_name">
+          西安趣链科技有限公司
+        </view>
+        <view class="nameBox">
+          <view class="name">张三</view>
+          <view class="post">[总经理]</view>
+        </view>
+        <view class="phone_num">
+          <image class="smImg" src="../../image/phone@2x.png"></image>133 3333 4444
+        </view>
+        <view class="network">
+          <image class="smImg" src="../../image/network24@2x.png"></image>
+          <view class="net">www.baotuwang.com</view>
+          <button class="busi_detail" bindtap="toBusinessDetailFunc">企业详情>></button>
+        </view>
+        <image class="huizhang" src="../../image/zhiliang@2x.png"></image>
+      </view>
+    </view>
+    <!-- 公告轮播 -->
+    <swiper class="swiper_notice" autoplay="true" vertical="true" circular="true" interval="3000">
+      <block wx:for="{{inforList}}" wx:key="item">
+        <navigator url="{{item.url}}" open-type="navigate">
+          <swiper-item>
+            <image class="notice_image" src="/image/notice@2x.png"></image>
+            <text class="notice_tab">平台资讯</text>
+            <text class="notice_desc">{{item.title}}</text>
+          </swiper-item>
+        </navigator>
+      </block>
+    </swiper>
+    <button hover-class="none" class="link_big_btn">
+      <image src="/image/btnBg@2x.png"></image>
+      <text class="btn_desc">进入质量检测平台 >></text>
+    </button>
+    <view class="previewBox">
+      <view class="preview_title">
+        <text class="preview_title_desc">企业产品</text>
+        <text class="preview_title_more" bindtap="toProductListFunc">更多>></text>
+      </view>
+      <scroll-view class="preview_content"
+        scroll-x="true"
+        scroll-into-view="{{toView}}"
+        bindscroll="previewScrollFunc"
+        scroll-left="120"
+        >
+        <view class="preview_item {{curIndex === index ? 'orderli' : ''}}" bindtap="toProductDetailFunc" 
+          wx:for="{{productList}}" wx:key="item" id="{{'p_' + index}}">
+          <image src="/image/jiqiren@2x.png"></image>
+          <text class="preview_desc">扫地机器人</text>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+<!--pages/businessIntroduct/businessIntroduct.wxml-->
+<view class="container">
+  <c-phone />
+  <view class="busidescbox">
+    <image class="busilogo" src="https://i1.fuimg.com/701571/9488dfba950c9480.png"></image>
+    <view class="list_li">
+      <view class="list_li_left">公司名称:</view>
+      <view class="list_li_right">陕西省西安市趣链科技有限公司</view>
+    </view>
+    <view class="list_li">
+      <view class="list_li_left">所属行业:</view>
+      <view class="list_li_right">互联网行业</view>
+    </view>
+    <view class="list_li">
+      <view class="list_li_left">公司官网:</view>
+      <view class="list_li_right">www.qulian.com</view>
+    </view>
+    <view class="list_li">
+      <view class="list_li_left">公司地址:</view>
+      <view class="list_li_right">陕西省西安市高新区尚中心</view>
+    </view>
+  </view>
+  <view class="desc_box margintop50">
+    <view class="desc_box_header">客户案例</view>
+    <view class="desc_box_content">
+      <view class="desc_box_content_li" wx:for="123456789">
+        <image mode="aspectFit" src="https://i1.fuimg.com/701571/13e08a432ba48c68.png"></image>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="desc_box desc_box_auto">
+    <view class="desc_box_header">企业详解</view>
+    <view class="desc_box_content">
+      <image mode="widthFix" class="bigbox" src="https://i1.fuimg.com/701571/399c1a0502be7755.png"></image>
+    </view>
+  </view> -->
+  <view class="c_image_show" >
+    <c-imageshow title="企业详情111" imageurl="https://i2.tiimg.com/701571/b3f73e8c4444e88e.png" />
+  </view>
+</view>

@@ -1,0 +1,72 @@
+/* pages/businessProductsDetail/busiProduDetail.wxss */
+
+.imagebox {
+  text-align: center;
+  border-bottom: 14rpx solid #f6f6f9;
+  margin-top: 50rpx;
+}
+
+.imagebox image {
+  width: 690rpx;
+  height: 690rpx;
+  border-radius: 10rpx;
+}
+
+.imagebox .imagedesc {
+  display: flex;
+  height: 129rpx;
+  width: 690rpx;
+  margin: 0 auto;
+  line-height: 129rpx;
+  box-sizing: border-box;
+}
+
+.imagebox .imagedesc .desctext {
+  flex: 1;
+  text-align: left;
+}
+
+.imagebox .imagedesc .sharebtn {
+  width: 36rpx;
+  height: 129rpx;
+  box-sizing: border-box;
+  background: transparent;
+  text-align: center;
+  padding-right: 38rpx;
+}
+
+.imagebox .imagedesc .sharebtn image {
+  width: 36rpx;
+  height: 36rpx;
+  margin-top: 45rpx;
+}
+
+.c_image_show {
+  margin-top: 50rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  position: relative;
+}
+
+.c_image_show_width100 {
+  width: 750rpx;
+  padding: 0;
+}
+
+.c_image_show .moreBtn {
+  width: 135rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  display: inline-block;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0;
+  position: absolute;
+  top: 5rpx;
+  right: 6rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #666;
+  z-index: 999;
+}

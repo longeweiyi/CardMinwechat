@@ -1,0 +1,9 @@
+<!--components/mingpianbox/cmp.wxml-->
+<view class="container">
+  <view class="header">
+    {{listobj.order}}
+  </view>
+  <view class="list_content">
+    <c-mingpian class="cart_item" wx:for="{{listobj.list}}" wx:key="{{index}}" cardinfo="{{item}}" />
+  </view>
+</view>

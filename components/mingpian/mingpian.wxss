@@ -1,0 +1,97 @@
+/* components/mingpian/mingpian.wxss */
+
+.cardbox {
+  width: 208rpx;
+  height: 281rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0rpx 6rpx 22rpx 2rpx rgba(121, 121, 121, 0.13);
+  border-radius: 14rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardbox .topbox {
+  height: 163rpx;
+  background-color: #f3f3f3;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.cardbox .topbox_s {
+  
+}
+
+.cardbox .bottombox {
+  flex: 1;
+}
+
+.cardbox .topbox .topbox_header_logo {
+  height: 128rpx;
+  width: 160rpx;
+  margin-left: 22rpx;
+}
+
+.cardbox .topbox .topbox_header_logo image {
+  display: inline;
+}
+
+.cardbox .topbox .topbox_header_desc {
+  text-align: center;
+  width: 208rpx;
+  height: 36rpx;
+  background: linear-gradient(90deg, rgba(65, 193, 254, 0.04), rgba(70, 185, 247, 0.65), rgba(70, 185, 247, 0.04));
+  opacity: 0.45;
+  position: absolute;
+  bottom: 0;
+  font-size: 18rpx;
+  line-height: 41rpx;
+}
+
+.cardbox .topbox .topbox_header_desc_bac1 {
+  background: linear-gradient(90deg, rgba(65, 193, 254, 0.04), rgba(70, 185, 247, 0.65), rgba(70, 185, 247, 0.04));
+}
+
+.cardbox .topbox .topbox_header_desc_bac2 {
+  background:linear-gradient(90deg,rgba(243,243,243,0.04),rgba(88,86,213,0.65),rgba(243,243,243,0.04));
+}
+
+.cardbox .topbox .topbox_header_desc_bac3 {
+  background:linear-gradient(90deg,rgba(243,243,243,0.04),rgba(141,138,144,0.65),rgba(243,243,243,0.04));
+}
+
+.cardbox .topbox .topbox_header_desc image {
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: text-bottom;
+}
+
+.bottombox_namebox {
+  text-align: center;
+  margin-top: 15rpx;
+}
+
+.bottombox_name {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 1);
+  line-height: 18rpx;
+}
+
+.bottombox_people_site {
+  font-size: 18rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 18rpx;
+}
+
+.bottombox_businame {
+  font-size: 17.9rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 18rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}

@@ -1,0 +1,19 @@
+<!--pages/cards/cards.wxml-->
+<view class="container">
+  <view class="searchWrapper">
+    <input class="searchInput"></input>
+    <image src="/image/searchicon@2x.png"></image>
+  </view>
+  <view class="switchtab_wrapper" bindtap="switchTabFunc">
+    <view wx:for="{{tabArr}}" wx:key="index" 
+      class="{{index === tabSelecIndex ? 'active' : ''}}" 
+      data-type="{{index}}">
+      {{item.desc}}
+    </view>
+  </view>
+  <view class="list_content">
+    <block wx:for="{{cardList}}">
+      <c-mingpianbox wx:key="{{item.order}}" listobj="{{item}}"  class="cart_list"/>
+    </block>
+  </view>
+</view>

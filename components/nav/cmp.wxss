@@ -1,0 +1,38 @@
+/* components/nav/cmp.wxss */
+
+.container {
+  width: 750rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.type {
+  width: 111rpx;
+  height: 78rpx;
+  line-height: 78rpx;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #222222;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.active {
+  color: #333333;
+}
+
+.active::after {
+  content: " ";
+  display: inline-block;
+  width: 50rpx;
+  border-top: 4rpx solid #373C4D;
+  position: absolute;
+  bottom: 0rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
