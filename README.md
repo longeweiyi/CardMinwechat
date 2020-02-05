@@ -1,2 +1,2 @@
 # CardMinwechat
-a minwechat to intruduct you business
+a minwechat to intruduct your business
